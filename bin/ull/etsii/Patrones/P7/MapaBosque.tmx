@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Bosque" tilewidth="32" tileheight="32">
+  <image source="../../../../../../../../../Program Files (x86)/Tiled/Tilesets/tileset/grass-tiles-2-small.png" width="384" height="192"/>
+ </tileset>
+ <tileset firstgid="73" name="Arbusto" tilewidth="32" tileheight="32">
+  <image source="../../../../../../../../../Program Files (x86)/Tiled/Tilesets/tileset/qubodup-bush_0.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="74" name="ArbustoFrutal" tilewidth="32" tileheight="32">
+  <image source="../../../../../../../../../Program Files (x86)/Tiled/Tilesets/tileset/qubodup-bush_berries_0.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="75" name="Arbol" tilewidth="32" tileheight="32">
+  <image source="../../../../../../../../../Program Files (x86)/Tiled/Tilesets/tileset/tree2-final.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzNlEsLwjAQhFMvmoJerIK2vgrV1kf//89zArMQgm22kkMPHwsDu53sJM2MMQuQJaprsElY/fkdaMBTqY/5u4Ib2IIaXAJ9FegxfxV73Lwd2HtV9AKUSn9v8GFvDw7kSL2g/pqwvxNnnAPdebf0liLflmcvJ+Y7VFue96HIPfY9yTdnvq7/Tvz70JCYv4qzrJex5C76kjlahT/JPY/kLrpmf0O5/9LH/HXc9b/v16+SQ63wr7l/src+kb85/v/m6O8L68YUUA==
+  </data>
+ </layer>
+ <layer name="Capa de patrones 2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyt0ccOwjAQRVH/XizKhi56721L7+WruQuQrJETm8BIRyRh/OxMlFIqUO5aYY0NtthhjwOOHutlnXDGBVfccMcDT6MveNPG9YcS91r5vctnnby3rY+b90uf+X7ymXyuPfaSc9OW/8L2teW5KhC/YT3fzkJea4NvnpxX1HePmq3Z98/y/e7fzs+ck8yVc43Ksa1x7R+W4dojLC+BJFJIR5zN93wZZJFDHgUUUbKczSevjAqqqKGOBpqWXlduC2100EUPfQww9DiPrBHGmGCKGeZYYBkj7wXkBDNI
+  </data>
+ </layer>
+ <layer name="Capa de patrones 3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzd0+duwjAUhmHfHzNA2XuU2bI3ZbZlXDUvUhACcXCcn3zS8yexHCvns1K3zLHAD5ZYYY0NtvYaD7zwwY8AgrAQUvfZ4Rd/+MceBxxxsteEEcEHooghjgSSyjwppJFBFjnkUUDRxX4llFHBJ6qooY6Gi/2aaOEL32ijgy56LvbrY4AhRhhjgilmymxel+g6YDovXQfedV7X//4Y3bykhIXnTu7sq/M99sLJnZXO96wXpt+37PdSL0y/f+2l1Aspul5KvZCi66XUCym6Xkq9kKLrpdSLM2bfZEE=
+  </data>
+ </layer>
+ <layer name="Capa de patrones 4" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+  </data>
+ </layer>
+</map>

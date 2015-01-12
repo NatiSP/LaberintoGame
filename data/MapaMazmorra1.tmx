@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Mazmorra" tilewidth="32" tileheight="32">
+  <image source="../../Practica7/src/tileset/tileset.jpg" trans="00ff00" width="281" height="291"/>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="exit" value="true"/>
+    <property name="habitacion" value="2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NiYGBgGgJYDgeWhWJc8jCMzTwVIFYlEavhMU8HiHUJYJh6GF+PQvOEoJha5qFjYs1Dl6fUPCE0TKl5pOLBYB628KTEv8JIeKDTCzXMMwFiUxKxGR7zKMEDXT4OFAYABGbeNUAGAAA=
+  </data>
+ </layer>
+ <layer name="Capa de patrones 2" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkgHADV9EcVABgAA
+  </data>
+ </layer>
+ <layer name="Capa de patrones 3" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGBpAlkKMzTxK3EKueUxQTC3zhKCYWuZhA8SYx4SGKTVPCA1Tah4pQHeQmIcrPMn1L67wxGWeCRCbkojN8Jg32PMvNd03UgAAALGDSkAGAAA=
+  </data>
+ </layer>
+</map>

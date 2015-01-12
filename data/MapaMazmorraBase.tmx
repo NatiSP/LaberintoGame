@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Mazmorra" tilewidth="32" tileheight="32">
+  <image source="../../Practica7/src/tileset/tileset.jpg" trans="00ff00" width="281" height="291"/>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NiYGBgGgJYDgfWhWJc8jCMzTwVIFZFwzDz0MVhWA2PeTpI+nFhmHoYX49C84SgmFrmoWNizUOXp9Q8ITRMqnmk+hNXPNHKPGLiA5v9lMSvMBIe6PRCDfNMgNgUC4bpxSZnhsc8SsqYgS4fBwoDAPWwaw1ABgAA
+  </data>
+ </layer>
+</map>

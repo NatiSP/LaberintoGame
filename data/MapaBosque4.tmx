@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Bosque" tilewidth="32" tileheight="32">
+  <image source="../../Practica7/src/tileset/grass-tiles-2-small.png" width="384" height="192"/>
+  <tile id="24">
+   <properties>
+    <property name="blocked" value="false"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="blocked" value="false"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="exit" value="true"/>
+    <property name="habitacion" value="1"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="exit" value="true"/>
+    <property name="habitacion" value="1"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="exit" value="true"/>
+    <property name="habitacion" value="5"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="exit" value="true"/>
+    <property name="habitacion" value="1"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="exit" value="true"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="exit" value="true"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="exit" value="true"/>
+    <property name="habitacion" value="5"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="exit" value="true"/>
+    <property name="habitacion" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="73" name="Arbol" tilewidth="32" tileheight="32">
+  <image source="../../Practica7/src/tileset/tree2-final.png" width="256" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="137" name="Arbusto" tilewidth="32" tileheight="32">
+  <image source="../../Practica7/src/tileset/qubodup-bush_0.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="138" name="ArbustoFrutal" tilewidth="32" tileheight="32">
+  <image source="../../Practica7/src/tileset/qubodup-bush_berries_0.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1UywrCMBBM6sFWSC5VQauCh9iT/v/nmaG7MA7tyeLJhWH21WnaJJtCCE1FMnY/kR8NWTgRZ+oDiuExg0JcJPaeSNqXirZiX9EZbw3we8ofzO+oBoy2xr99Z9iT+4p62N/nCjpDmM7rWvar89JLfAzT2QXvrO7nGtxaHuZ3FOb3obcef95zHfW00gsM4fPOnwXYo1fFSeB1jXmGROJs/rXiJj1c13mUSSfZN/N84r65OcbzBPEoOqzPa+U5F+lbmYGN1dlcV9eh/4VnZyM5taU16vzld2eK1TyfRSNRrVnQQ98bjy3MukAGAAA=
+  </data>
+ </layer>
+ <layer name="Capa de patrones 2" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC82TzQrCMBCEIwr9AfXQpuDP3b6ONx/Box49etO3NgszOIbYVPTgwpB2d/NlkrTO/V8sgyY/5O2EZ2Mf5IOKoBKqkDPVeO9kLKXfeHOwTFv0NdJnz60wPMYW9Q49lttEvB59laxPX6179dSCU0B1wl+PvJe9kkVuJyzy+Kw8RpXo7cQH16BHrs8z2UQ8L3siq0G+SeSZ4/m66D7YU7vnfXphFnIefI+9zYVHRil9nE8vpZyleuP3p/50XXrRu1b/jXsNvY87eN8E/d0TvD3GFaRxeMObRryUrL7I9LybZ98z/6GhOGbqDrxZ0DqxvzhOI3mq84g5n/Aumf5cPeZdB3pvmbrFA4XOlsBABgAA
+  </data>
+ </layer>
+ <layer name="Capa de patrones 5" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC82UYQqAMAiF7QBBBxjUz6AuOk/dBhNkODJ10IOHA+FD9LEMAFicmbGrUm/Ur16KN/CL884AHs1r4eUBDxsv+UabwhvtDx28qsMxE2ln7zuAd7VK+4vIC2Vcw6PbvfHoHtb78hzyPCehb2FXrw6GxJOk2dcXnkUzeRq29Hf2/rse058unkAGAAA=
+  </data>
+ </layer>
+ <layer name="Capa de patrones 3" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3MVQ7CYBBF4W4PLe7uUNwrWJGybM4GJvNM8k/yvc25lmXOnLl/vSRSSMNGRviLIY6E0hRQRAllVIS9LHLIK00DTbTQRkfYq6KGutIMMMQIY0yEvS566CvNHAssscJa2JtiBkdp9jjgiBPOwt4GW+yUJsAFV9xwF/ZcePCV5oU3PojwFfYeCPFUmh9m4+/3QAYAAA==
+  </data>
+ </layer>
+ <layer name="Capa de patrones 4" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3MJRaAUBgG0bc9pCAFKUhBClKQgiycWcTX+OecW8c5y7L+mgcfAULBL0KMBKnglyFHgVLwq1CjQSv4degxYBT8JsxYsAp+G3YcOAW/CzcevPgArXq+jkAGAAA=
+  </data>
+ </layer>
+</map>

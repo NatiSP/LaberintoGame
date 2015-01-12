@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Mazmorra" tilewidth="32" tileheight="32">
+  <image source="../../Practica7/src/tileset/tileset.jpg" trans="00ff00" width="281" height="291"/>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="exit" value="true"/>
+    <property name="habitacion" value="1"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="exit" value="true"/>
+    <property name="habitacion" value="1"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="exit" value="true"/>
+    <property name="habitacion" value="3"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NiYGBgGgJYDgfWhWJc8jCMzTwVIFZFwzDz0MVhWA2PeTpI+nFhmHoYX49C84SgmFrmoWNizUOXp9Q8ITRMqnmk+pPe5hETH9jsp8Q8YSQ80OmFGuaZALEpidgMj3mU4IEuHwcKAwCQ85LyQAYAAA==
+  </data>
+ </layer>
+ <layer name="Capa de patrones 2" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkgHADV9EcVABgAA
+  </data>
+ </layer>
+ <layer name="Capa de patrones 3" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGBpAFgc2gmJc8jCMzTxK3EKueUxQTC3zhKCYWuZhA8SYx4SGKTVPCA2Tap4+AT0DbR4x8YErPMk1D1d44jLPBIhNScRmeMyjBGMzj1xAD/eNFAAA1e4ib0AGAAA=
+  </data>
+ </layer>
+</map>
